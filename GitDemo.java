@@ -1,9 +1,10 @@
 /*****
- * Edit this line to have your name.
+ Brett Koppelman
  ******/
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
     
     public GitDemo() {
         previousNumber = 1;
@@ -45,6 +46,7 @@ public class GitDemo {
             newNumber = newNumber * i;
         }
         
+        reverseNum = newNumber;
         return newNumber;
     }
     
